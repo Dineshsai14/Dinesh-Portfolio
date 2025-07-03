@@ -6,7 +6,7 @@ const About = () => {
     {
       icon: Code,
       title: "Clean Code",
-      description: "Writing maintainable, scalable code that stands the test of time"
+      description: "Writing maintainable, scalable code with focus on algorithms and efficiency"
     },
     {
       icon: Lightbulb,
@@ -35,26 +35,32 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-300 leading-relaxed">
-              I'm a passionate full-stack developer with over 5 years of experience creating 
-              web applications that combine functionality with beautiful design. My journey in 
-              tech started with curiosity and has evolved into a career driven by innovation.
+              I'm a B.Tech graduate in Computer Science and Engineering from G. Pullaiah College 
+              of Engineering and Technology with a CGPA of 7.79. I aim to begin my career in a 
+              dynamic and growth-oriented organization where I can apply my technical knowledge 
+              and problem-solving skills.
             </p>
             
             <p className="text-lg text-gray-300 leading-relaxed">
-              When I'm not coding, you'll find me exploring new technologies, contributing to 
-              open source projects, or mentoring aspiring developers. I believe in the power 
-              of technology to solve real-world problems and create meaningful experiences.
+              I am eager to contribute to software development or IT projects while learning from 
+              experienced professionals. Passionate about coding, algorithms, and new technologies, 
+              I strive to build efficient solutions and grow continuously in the tech industry.
             </p>
 
-            <div className="flex flex-wrap gap-3">
-              {["JavaScript", "React", "Node.js", "Python", "TypeScript", "AWS"].map((tech) => (
-                <span
-                  key={tech}
-                  className="px-4 py-2 bg-slate-800 text-blue-400 rounded-full text-sm font-medium"
-                >
-                  {tech}
-                </span>
-              ))}
+            <div className="space-y-4">
+              <h3 className="text-xl font-semibold text-white">Education</h3>
+              <div className="space-y-2">
+                <div className="p-3 bg-slate-800/30 rounded-lg">
+                  <p className="text-blue-400 font-medium">B.Tech in Computer Science & Engineering</p>
+                  <p className="text-gray-300 text-sm">G. Pullaiah College of Engineering and Technology</p>
+                  <p className="text-gray-400 text-sm">2021 - 2025 • CGPA: 7.79</p>
+                </div>
+                <div className="p-3 bg-slate-800/30 rounded-lg">
+                  <p className="text-blue-400 font-medium">Intermediate, Class XII</p>
+                  <p className="text-gray-300 text-sm">Narayana Junior College</p>
+                  <p className="text-gray-400 text-sm">2021 • CGPA: 8.17</p>
+                </div>
+              </div>
             </div>
           </div>
 

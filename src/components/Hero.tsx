@@ -18,16 +18,16 @@ const Hero = () => {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
-          John <span className="text-blue-400">Doe</span>
+          Kummari <span className="text-blue-400">Dinesh Sai</span>
         </h1>
         
         <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
-          Full Stack Developer & Creative Problem Solver
+          B.Tech Graduate in Computer Science & Engineering
         </p>
         
         <p className="text-lg text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed">
-          Passionate about creating beautiful, functional web applications that make a difference. 
-          I bring ideas to life through clean code and thoughtful design.
+          Passionate about coding, algorithms, and new technologies. I strive to build efficient solutions 
+          and grow continuously in the tech industry. Ready to contribute to software development and IT projects.
         </p>
 
         <div className="flex justify-center space-x-6 mb-12">
@@ -48,7 +48,7 @@ const Hero = () => {
             <Linkedin className="w-6 h-6 text-white" />
           </a>
           <a
-            href="mailto:john@example.com"
+            href="mailto:kummarisai14@gmail.com"
             className="p-3 bg-slate-800 rounded-full hover:bg-blue-600 transition-all duration-300 hover:scale-110"
           >
             <Mail className="w-6 h-6 text-white" />

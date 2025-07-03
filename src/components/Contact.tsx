@@ -37,19 +37,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "john.doe@example.com",
-      link: "mailto:john.doe@example.com"
+      value: "kummarisai14@gmail.com",
+      link: "mailto:kummarisai14@gmail.com"
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
+      value: "+91 9490765270",
+      link: "tel:+919490765270"
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "San Francisco, CA",
+      value: "Kurnool, Andhrapradesh, India",
       link: "#"
     }
   ];
@@ -66,9 +66,9 @@ const Contact = () => {
             <div>
               <h3 className="text-2xl font-semibold text-white mb-4">Let's work together</h3>
               <p className="text-gray-300 text-lg leading-relaxed">
-                I'm always excited to take on new challenges and collaborate on interesting projects. 
-                Whether you have a specific project in mind or just want to chat about technology, 
-                feel free to reach out!
+                I'm eager to contribute to software development or IT projects while learning from 
+                experienced professionals. Whether you have an internship opportunity, entry-level position, 
+                or project collaboration in mind, feel free to reach out!
               </p>
             </div>
 
@@ -88,6 +88,16 @@ const Contact = () => {
                   </div>
                 </a>
               ))}
+            </div>
+
+            <div className="p-6 bg-slate-800/50 rounded-lg">
+              <h4 className="text-lg font-semibold text-white mb-3">Certifications</h4>
+              <ul className="space-y-2 text-gray-300 text-sm">
+                <li>• Certified in Web Development - Web Technologies</li>
+                <li>• Certified in Responsible and Safe AI - NPTEL</li>
+                <li>• Certified in Cybersecurity with Python - NPTEL</li>
+                <li>• Certified in Basic Environmental Engineering - NPTEL</li>
+              </ul>
             </div>
           </div>
 
@@ -140,7 +150,7 @@ const Contact = () => {
 
         <div className="text-center mt-16 pt-8 border-t border-slate-700">
           <p className="text-gray-400">
-            © 2024 John Doe. Built with React, TypeScript, and Tailwind CSS.
+            © 2024 Kummari Dinesh Sai. Built with passion for technology and continuous learning.
           </p>
         </div>
       </div>

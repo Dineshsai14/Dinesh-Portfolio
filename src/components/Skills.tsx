@@ -5,38 +5,38 @@ const Skills = () => {
   const skillCategories = [
     {
       icon: Globe,
-      title: "Frontend",
-      skills: ["React", "Vue.js", "TypeScript", "Tailwind CSS", "Next.js"],
+      title: "Programming Languages",
+      skills: ["Java", "Python"],
       color: "blue"
     },
     {
       icon: Server,
-      title: "Backend",
-      skills: ["Node.js", "Python", "Express", "Django", "GraphQL"],
+      title: "Web Technologies",
+      skills: ["HTML", "CSS", "JavaScript"],
       color: "green"
     },
     {
       icon: Database,
       title: "Database",
-      skills: ["PostgreSQL", "MongoDB", "Redis", "Firebase", "MySQL"],
+      skills: ["SQL"],
       color: "purple"
     },
     {
       icon: Zap,
-      title: "Tools & DevOps",
-      skills: ["Docker", "AWS", "Git", "CI/CD", "Kubernetes"],
+      title: "Development Tools",
+      skills: ["Git", "GitHub", "Web Development"],
       color: "orange"
     },
     {
       icon: Smartphone,
-      title: "Mobile",
-      skills: ["React Native", "Flutter", "iOS", "Android", "PWA"],
+      title: "Specializations",
+      skills: ["Machine Learning", "Natural Language Processing", "Cybersecurity"],
       color: "pink"
     },
     {
       icon: Palette,
-      title: "Design",
-      skills: ["Figma", "Adobe XD", "UI/UX", "Photoshop", "Illustrator"],
+      title: "Certifications",
+      skills: ["Web Technologies", "Responsible AI", "Environmental Engineering"],
       color: "cyan"
     }
   ];
