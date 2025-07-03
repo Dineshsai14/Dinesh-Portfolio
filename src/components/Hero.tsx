@@ -8,15 +8,7 @@ const Hero = () => {
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative px-4">
-      <div className="text-center animate-fade-in">
-        <div className="mb-8">
-          <img
-            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face"
-            alt="Profile"
-            className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-blue-400 shadow-2xl animate-scale-in"
-          />
-        </div>
-        
+      <div className="text-center animate-fade-in">        
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
           Kummari <span className="text-blue-400">Dinesh Sai</span>
         </h1>
